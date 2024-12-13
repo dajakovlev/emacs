@@ -28,3 +28,17 @@
 (use-package straight
   :custom
   (straight-use-package-by-default t))
+
+;;
+;; User Interface
+;;
+
+;; Set font
+(set-face-attribute 'default nil
+		    :family "JetBrains Mono"
+		    :height 110)
+
+;; Set theme
+(use-package lab-themes
+  :config
+  (lab-themes-load-style 'light))
