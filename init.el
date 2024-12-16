@@ -29,9 +29,9 @@
   :custom
   (straight-use-package-by-default t))
 
-;;
-;; User Interface
-;;
+;;;
+;;; User Interface
+;;;
 
 ;; Set font
 (set-face-attribute 'default nil
